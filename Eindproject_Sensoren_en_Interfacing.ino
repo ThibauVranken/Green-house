@@ -100,7 +100,7 @@ void loop() {
   if (bediening) {
     sensorVerwerking();
   }
-  // If the variable 'bediening' is 'false' then the 'sensorVerwerking' function is skipped and the 'actuatoren' function is started
+  // If the variable 'bediening' is 'false' then the 'sensorVerwerking' function is skipped and the 'actuatoren' function is started (This function is always called)
   actuatoren();
   delay(3000);
 }
