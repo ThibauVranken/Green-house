@@ -51,7 +51,7 @@ BLYNK_WRITE(V20) {
   parameters = !parameters;
 }
 
-// You can use these functions to modify the parameters in your Blynk App if the 'parameters' variable is 'false'
+// You can use these functions to modify the parameters in your Blynk App if the 'parameters' variable is 'false' (So when the button in your Blynk App is turned on)
 BLYNK_WRITE(V21) {
   if (!parameters) {
     minTemp = param.asFloat();
