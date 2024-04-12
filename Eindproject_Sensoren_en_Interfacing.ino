@@ -6,7 +6,7 @@
 #include <BlynkSimpleEsp32.h>
 #include <DHT.h>
 
-// Define the pins ven the sensors and actuators
+// Define the pins for the sensors and actuators
 #define DHT_PIN 4          // The DHT11 measures temperature and humidity
 #define ldrPin 35          // The LDR measures the light strength of the environment so that the light comes on when it is too dark
 #define bvPin 34           // The soil moisture sensor measures soil moisture so the pump waters at the right time
